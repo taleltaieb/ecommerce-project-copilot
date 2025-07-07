@@ -35,7 +35,7 @@ orders_full["month"] = orders_full["order_delivered_customer_date"].dt.to_period
 
 # Streamlit setup
 st.set_page_config(page_title="E-commerce Copilot", layout="wide")
-st.markdown("<h1 style='text-align: center;'>📦 Olist Project Copilot Dashboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>📦 E-Commerce Project Copilot Dashboard</h1>", unsafe_allow_html=True)
 st.markdown("Use this interactive dashboard to monitor delivery performance, customer satisfaction, and high-risk orders.")
 
 # Filters
