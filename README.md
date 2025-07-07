@@ -33,6 +33,7 @@ It acts as an **Copilot for Project Managers**, delivering:
 
 ## 📁 Project Structure
 
+```
 .
 ├── data/
 │ └── raw/ # Original Kaggle CSVs
@@ -43,6 +44,7 @@ It acts as an **Copilot for Project Managers**, delivering:
 │ ├── 01_exploration.ipynb # Data prep and EDA
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
@@ -74,25 +76,19 @@ It acts as an **Copilot for Project Managers**, delivering:
 
 1. Clone this repo
 2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 Download and unzip the dataset from Kaggle
 Place the CSVs in: data/raw/
 
 Launch the dashboard:
-   ```bash
-    streamlit run dashboard/app_advanced.py
-   ```
+```bash
+streamlit run dashboard/app_advanced.py
+```
 
 🌐 Live Demo
 ⚠️ Note: This app is deployed on Streamlit Cloud and may sleep when inactive.
-👉 View Live Demo (if applicable)
-
-Or see screenshots below 👇
-
-📸 Screenshots
-Overview	Delays	Satisfaction	Alerts
 
 
 📬 Contact
